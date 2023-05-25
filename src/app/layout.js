@@ -21,6 +21,9 @@ export default function RootLayout({ children }) {
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>AOS.init();</script>
         <script src="node_modules/@material-tailwind/html@latest/scripts/ripple.js"></script>
+        <script src="sweetalert2.all.min.js"></script>
+        <script src="sweetalert2.min.js"></script>
+        <link rel="stylesheet" href="sweetalert2.min.css"></link>
       </body>
     </html>
   );
