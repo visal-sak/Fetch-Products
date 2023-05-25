@@ -39,7 +39,10 @@ export default async function ProductData({ params }) {
           <div class="lg:col-span-3 lg:row-end-1">
             <div class="lg:flex lg:items-start">
               <div class="lg:order-2 lg:ml-5">
-                <div class="max-w-lg overflow-hidden rounded-lg">
+                <div
+                  class="max-w-lg overflow-hidden rounded-lg"
+                  data-aos="flip-right"
+                >
                   <img
                     class="h-full w-full max-w-full object-cover"
                     src={product.images[0]}
@@ -120,7 +123,9 @@ export default async function ProductData({ params }) {
               </p>
             </div>
 
-            <h2 class="mt-8 text-base text-gray-900">{product.category.name}</h2>
+            <h2 class="mt-8 text-base text-gray-900">
+              {product.category.name}
+            </h2>
             <div class="mt-3 flex select-none flex-wrap items-center gap-1">
               <label class="">
                 <input

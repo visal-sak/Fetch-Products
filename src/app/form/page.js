@@ -129,9 +129,9 @@ export default function FormPage() {
       }}
     >
       {({ isSubmitting }) => (
-        <section className="my-28 md:container md:mx-auto">
-          <div className="max-w-md mx-auto hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-lime-300 to-sky-400 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s] my-12 ">
-            <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
+        <section className="my-28">
+          <div className="max-w-sm mx-auto hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-lime-300 to-sky-400 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s] my-12 ">
+            <div className="p-6 space-y-4 sm:space-y-6 sm:p-8">
               <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
                 Create Product
               </h1>
